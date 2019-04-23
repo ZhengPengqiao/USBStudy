@@ -51,5 +51,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-DOC/libusb-1.0.22
-.vscode
+hotplug

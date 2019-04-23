@@ -14,3 +14,8 @@
   * tar xvf libusb-1.0.22.tar.bz2 
 * 编译
   * ./configure && make && sudo make install
+
+## 错误
+
+* 运行时错误：undefined symbol: libusb_set_option
+  * sudo ln -sf /usr/local/lib/libusb-1.0.so /lib/x86_64-linux-gnu/libusb-1.0.so.0
