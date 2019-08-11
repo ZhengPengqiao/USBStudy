@@ -1,0 +1,14 @@
+# Microsoft Developer Studio Generated Dependency File, included by SerchCH341Port.mak
+
+.\SerchCH341Port.cpp : \
+	".\CH341PT.H"\
+	
+
+.\SerchCH341Port.rc : \
+	".\small.ico"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

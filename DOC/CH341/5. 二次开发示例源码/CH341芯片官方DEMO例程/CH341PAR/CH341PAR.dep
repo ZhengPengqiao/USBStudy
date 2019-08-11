@@ -1,0 +1,136 @@
+# Microsoft Developer Studio Generated Dependency File, included by CH341PAR.mak
+
+.\CH341PAR.cpp : \
+	".\CH341PAR.h"\
+	".\CH341PARDlg.h"\
+	".\CtrlSheet.h"\
+	".\EeprPage.h"\
+	".\EppPage.h"\
+	".\I2CSPage.h"\
+	".\LEDBTDisp.h"\
+	".\MemPage.h"\
+	".\OtherPage.h"\
+	".\StdAfx.h"\
+	".\Total.h"\
+	
+
+.\CH341PAR.rc : \
+	".\res\CH341PAR.ico"\
+	".\res\CH341PAR.rc2"\
+	
+
+.\CH341PARDlg.cpp : \
+	".\CH341PAR.h"\
+	".\CH341PARDlg.h"\
+	".\CtrlSheet.h"\
+	".\EeprPage.h"\
+	".\EppPage.h"\
+	".\I2CSPage.h"\
+	".\LEDBTDisp.h"\
+	".\MemPage.h"\
+	".\OtherPage.h"\
+	".\StdAfx.h"\
+	".\Total.h"\
+	
+
+.\CtrlSheet.cpp : \
+	".\CH341PAR.h"\
+	".\CH341PARDlg.h"\
+	".\CtrlSheet.h"\
+	".\EeprPage.h"\
+	".\EppPage.h"\
+	".\I2CSPage.h"\
+	".\LEDBTDisp.h"\
+	".\MemPage.h"\
+	".\OtherPage.h"\
+	".\StdAfx.h"\
+	".\Total.h"\
+	
+
+.\EeprPage.cpp : \
+	".\CH341PAR.h"\
+	".\CH341PARDlg.h"\
+	".\CtrlSheet.h"\
+	".\EeprPage.h"\
+	".\EppPage.h"\
+	".\I2CSPage.h"\
+	".\LEDBTDisp.h"\
+	".\MemPage.h"\
+	".\OtherPage.h"\
+	".\StdAfx.h"\
+	".\Total.h"\
+	
+
+.\EppPage.cpp : \
+	".\CH341PAR.h"\
+	".\CH341PARDlg.h"\
+	".\CtrlSheet.h"\
+	".\EeprPage.h"\
+	".\EppPage.h"\
+	".\I2CSPage.h"\
+	".\LEDBTDisp.h"\
+	".\MemPage.h"\
+	".\OtherPage.h"\
+	".\StdAfx.h"\
+	".\Total.h"\
+	
+
+.\I2CSPage.cpp : \
+	".\CH341PAR.h"\
+	".\CH341PARDlg.h"\
+	".\CtrlSheet.h"\
+	".\EeprPage.h"\
+	".\EppPage.h"\
+	".\I2CSPage.h"\
+	".\LEDBTDisp.h"\
+	".\MemPage.h"\
+	".\OtherPage.h"\
+	".\StdAfx.h"\
+	".\Total.h"\
+	
+
+.\LEDBTDisp.cpp : \
+	".\CH341PAR.h"\
+	".\CH341PARDlg.h"\
+	".\CtrlSheet.h"\
+	".\EeprPage.h"\
+	".\EppPage.h"\
+	".\I2CSPage.h"\
+	".\LEDBTDisp.h"\
+	".\MemPage.h"\
+	".\OtherPage.h"\
+	".\StdAfx.h"\
+	".\Total.h"\
+	
+
+.\MemPage.cpp : \
+	".\CH341PAR.h"\
+	".\CH341PARDlg.h"\
+	".\CtrlSheet.h"\
+	".\EeprPage.h"\
+	".\EppPage.h"\
+	".\I2CSPage.h"\
+	".\LEDBTDisp.h"\
+	".\MemPage.h"\
+	".\OtherPage.h"\
+	".\StdAfx.h"\
+	".\Total.h"\
+	
+
+.\OtherPage.cpp : \
+	".\CH341PAR.h"\
+	".\CH341PARDlg.h"\
+	".\CtrlSheet.h"\
+	".\EeprPage.h"\
+	".\EppPage.h"\
+	".\I2CSPage.h"\
+	".\LEDBTDisp.h"\
+	".\MemPage.h"\
+	".\OtherPage.h"\
+	".\StdAfx.h"\
+	".\Total.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

@@ -1,0 +1,379 @@
+16:51:50:707 : Start to write key 
+16:51:50:722 : To write 8Byte 
+16:51:50:769 : Write 8Byte 
+16:51:50:769 : To wait for return 
+16:51:50:972 : Wait for return 
+16:51:50:972 : To read return 
+16:51:50:988 : Read return 
+16:51:50:988 : Return is wrong 
+16:51:50:988 : To reset 
+16:51:52:300 : Reset 
+16:51:52:316 : To write 8Byte 
+16:51:52:363 : Write 8Byte 
+16:51:52:363 : To wait for return 
+16:51:52:566 : Wait for return 
+16:51:52:566 : To read return 
+16:51:52:582 : Read return 
+16:51:52:582 : Return is wrong 
+16:51:52:582 : To reset 
+16:51:53:894 : Reset 
+16:51:53:910 : To write 8Byte 
+16:51:53:972 : Write 8Byte 
+16:51:53:972 : To wait for return 
+16:51:54:176 : Wait for return 
+16:51:54:176 : To read return 
+16:51:54:191 : Read return 
+16:51:54:191 : Return is wrong 
+16:51:54:191 : To reset 
+16:51:55:504 : Reset 
+16:51:55:519 : To write 8Byte 
+16:51:55:566 : Write 8Byte 
+16:51:55:566 : To wait for return 
+16:51:55:769 : Wait for return 
+16:51:55:769 : To read return 
+16:51:55:785 : Read return 
+16:51:55:785 : Return is wrong 
+16:51:55:785 : To reset 
+16:51:57:098 : Reset 
+16:51:57:113 : To write 8Byte 
+16:51:57:160 : Write 8Byte 
+16:51:57:160 : To wait for return 
+16:51:57:363 : Wait for return 
+16:51:57:363 : To read return 
+16:51:57:379 : Read return 
+16:51:57:379 : Return is wrong 
+16:51:57:379 : To reset 
+16:51:58:707 : Reset 
+16:51:58:723 : To write 8Byte 
+16:51:58:769 : Write 8Byte 
+16:51:58:769 : To wait for return 
+16:51:58:973 : Wait for return 
+16:51:58:973 : To read return 
+16:51:58:988 : Read return 
+16:51:58:988 : Return is wrong 
+16:51:58:988 : To reset 
+16:52:00:301 : Reset 
+16:52:00:316 : To write 8Byte 
+16:52:00:363 : Write 8Byte 
+16:52:00:363 : To wait for return 
+16:52:00:566 : Wait for return 
+16:52:00:566 : To read return 
+16:52:00:582 : Read return 
+16:52:00:582 : Return is wrong 
+16:52:00:582 : To reset 
+16:52:01:895 : Reset 
+16:52:01:910 : To write 8Byte 
+16:52:01:973 : Write 8Byte 
+16:52:01:973 : To wait for return 
+16:52:02:176 : Wait for return 
+16:52:02:176 : To read return 
+16:52:02:191 : Read return 
+16:52:02:191 : Return is wrong 
+16:52:02:191 : To reset 
+16:52:03:504 : Reset 
+16:52:03:520 : To write 8Byte 
+16:52:03:567 : Write 8Byte 
+16:52:03:567 : To wait for return 
+16:52:03:770 : Wait for return 
+16:52:03:770 : To read return 
+16:52:03:785 : Read return 
+16:52:03:785 : Return is wrong 
+16:52:03:785 : To reset 
+16:52:05:098 : Reset 
+16:52:05:113 : To write 8Byte 
+16:52:05:160 : Write 8Byte 
+16:52:05:160 : To wait for return 
+16:52:05:363 : Wait for return 
+16:52:05:363 : To read return 
+16:52:05:379 : Read return 
+16:52:05:379 : Return is wrong 
+16:52:05:379 : To reset 
+16:52:06:692 : Reset 
+16:52:06:707 : To write 8Byte 
+16:52:06:770 : Write 8Byte 
+16:52:06:770 : To wait for return 
+16:52:06:973 : Wait for return 
+16:52:06:973 : To read return 
+16:52:06:989 : Read return 
+16:52:06:989 : Return is wrong 
+16:52:06:989 : To reset 
+16:52:08:301 : Reset 
+16:52:08:317 : To write 8Byte 
+16:52:08:364 : Write 8Byte 
+16:52:08:364 : To wait for return 
+16:52:08:567 : Wait for return 
+16:52:08:567 : To read return 
+16:52:08:582 : Read return 
+16:52:08:582 : Return is wrong 
+16:52:08:582 : To reset 
+16:52:09:895 : Reset 
+16:52:09:910 : To write 8Byte 
+16:52:09:973 : Write 8Byte 
+16:52:09:973 : To wait for return 
+16:52:10:176 : Wait for return 
+16:52:10:176 : To read return 
+16:52:10:192 : Read return 
+16:52:10:192 : Return is wrong 
+16:52:10:192 : To reset 
+16:52:11:504 : Reset 
+16:52:11:520 : To write 8Byte 
+16:52:11:567 : Write 8Byte 
+16:52:11:567 : To wait for return 
+16:52:11:770 : Wait for return 
+16:52:11:770 : To read return 
+16:52:11:786 : Read return 
+16:52:11:786 : Return is wrong 
+16:52:11:786 : To reset 
+16:52:13:098 : Reset 
+16:52:13:114 : To write 8Byte 
+16:52:13:161 : Write 8Byte 
+16:52:13:161 : To wait for return 
+16:52:13:364 : Wait for return 
+16:52:13:364 : To read return 
+16:52:13:379 : Read return 
+16:52:13:379 : Return is wrong 
+16:52:13:379 : To reset 
+16:52:14:708 : Reset 
+16:52:14:723 : To write 8Byte 
+16:52:14:770 : Write 8Byte 
+16:52:14:770 : To wait for return 
+16:52:14:973 : Wait for return 
+16:52:14:973 : To read return 
+16:52:14:989 : Read return 
+16:52:14:989 : Return is wrong 
+16:52:14:989 : To reset 
+16:52:16:301 : Reset 
+16:52:16:317 : To write 8Byte 
+16:52:16:364 : Write 8Byte 
+16:52:16:364 : To wait for return 
+16:52:16:567 : Wait for return 
+16:52:16:567 : To read return 
+16:52:16:583 : Read return 
+16:52:16:583 : Return is wrong 
+16:52:16:583 : To reset 
+16:52:17:911 : Reset 
+16:52:17:926 : To write 8Byte 
+16:52:17:973 : Write 8Byte 
+16:52:17:973 : To wait for return 
+16:52:18:176 : Wait for return 
+16:52:18:176 : To read return 
+16:52:18:192 : Read return 
+16:52:18:192 : Return is wrong 
+16:52:18:192 : To reset 
+16:52:19:505 : Reset 
+16:52:19:520 : To write 8Byte 
+16:52:19:567 : Write 8Byte 
+16:52:19:567 : To wait for return 
+16:52:19:770 : Wait for return 
+16:52:19:770 : To read return 
+16:52:19:786 : Read return 
+16:52:19:786 : Return is wrong 
+16:52:19:786 : To reset 
+16:52:21:098 : Reset 
+16:52:21:114 : To write 8Byte 
+16:52:21:161 : Write 8Byte 
+16:52:21:161 : To wait for return 
+16:52:21:364 : Wait for return 
+16:52:21:364 : To read return 
+16:52:21:380 : Read return 
+16:52:21:380 : Return is wrong 
+16:52:21:380 : To reset 
+16:52:22:708 : Reset 
+16:52:22:723 : To write 8Byte 
+16:52:22:770 : Write 8Byte 
+16:52:22:770 : To wait for return 
+16:52:22:973 : Wait for return 
+16:52:22:973 : To read return 
+16:52:22:989 : Read return 
+16:52:22:989 : Return is wrong 
+16:52:22:989 : To reset 
+16:52:24:302 : Reset 
+16:52:24:317 : To write 8Byte 
+16:52:24:364 : Write 8Byte 
+16:52:24:364 : To wait for return 
+16:52:24:567 : Wait for return 
+16:52:24:567 : To read return 
+16:52:24:583 : Read return 
+16:52:24:583 : Return is wrong 
+16:52:24:583 : To reset 
+16:52:25:895 : Reset 
+16:52:25:911 : To write 8Byte 
+16:52:25:958 : Write 8Byte 
+16:52:25:958 : To wait for return 
+16:52:26:161 : Wait for return 
+16:52:26:161 : To read return 
+16:52:26:177 : Read return 
+16:52:26:177 : Return is wrong 
+16:52:26:177 : To reset 
+16:52:27:489 : Reset 
+16:52:27:505 : To write 8Byte 
+16:52:27:567 : Write 8Byte 
+16:52:27:567 : To wait for return 
+16:52:27:771 : Wait for return 
+16:52:27:771 : To read return 
+16:52:27:786 : Read return 
+16:52:27:786 : Return is wrong 
+16:52:27:786 : To reset 
+16:52:29:177 : Reset 
+16:52:29:192 : To write 8Byte 
+16:52:29:239 : Write 8Byte 
+16:52:29:239 : To wait for return 
+16:52:29:442 : Wait for return 
+16:52:29:442 : To read return 
+16:52:29:458 : Read return 
+16:52:29:458 : Return is wrong 
+16:52:29:458 : To reset 
+16:52:30:771 : Reset 
+16:52:30:786 : To write 8Byte 
+16:52:30:833 : Write 8Byte 
+16:52:30:833 : To wait for return 
+16:52:31:036 : Wait for return 
+16:52:31:036 : To read return 
+16:52:31:052 : Read return 
+16:52:31:052 : Return is wrong 
+16:52:31:052 : To reset 
+16:52:32:380 : Reset 
+16:52:32:396 : To write 8Byte 
+16:52:32:443 : Write 8Byte 
+16:52:32:443 : To wait for return 
+16:52:32:646 : Wait for return 
+16:52:32:646 : To read return 
+16:52:32:661 : Read return 
+16:52:32:661 : Return is wrong 
+16:52:32:661 : To reset 
+16:52:33:974 : Reset 
+16:52:33:990 : To write 8Byte 
+16:52:34:036 : Write 8Byte 
+16:52:34:036 : To wait for return 
+16:52:34:240 : Wait for return 
+16:52:34:240 : To read return 
+16:52:34:255 : Read return 
+16:52:34:255 : Return is wrong 
+16:52:34:255 : To reset 
+16:52:35:583 : Reset 
+16:52:35:599 : To write 8Byte 
+16:52:35:661 : Write 8Byte 
+16:52:35:661 : To wait for return 
+16:52:35:865 : Wait for return 
+16:52:35:865 : To read return 
+16:52:35:880 : Read return 
+16:52:35:880 : Return is wrong 
+16:52:35:880 : To reset 
+16:52:37:193 : Reset 
+16:52:37:208 : To write 8Byte 
+16:52:37:255 : Write 8Byte 
+16:52:37:255 : To wait for return 
+16:52:37:458 : Wait for return 
+16:52:37:458 : To read return 
+16:52:37:474 : Read return 
+16:52:37:474 : Return is wrong 
+16:52:37:474 : To reset 
+16:52:38:787 : Reset 
+16:52:38:802 : To write 8Byte 
+16:52:38:865 : Write 8Byte 
+16:52:38:865 : To wait for return 
+16:52:39:068 : Wait for return 
+16:52:39:068 : To read return 
+16:52:39:083 : Read return 
+16:52:39:083 : Return is wrong 
+16:52:39:083 : To reset 
+16:52:40:380 : Reset 
+16:52:40:396 : To write 8Byte 
+16:52:40:443 : Write 8Byte 
+16:52:40:443 : To wait for return 
+16:52:40:646 : Wait for return 
+16:52:40:646 : To read return 
+16:52:40:662 : Read return 
+16:52:40:662 : Return is wrong 
+16:52:40:662 : To reset 
+16:52:41:990 : Reset 
+16:52:42:005 : To write 8Byte 
+16:52:42:068 : Write 8Byte 
+16:52:42:068 : To wait for return 
+16:52:42:271 : Wait for return 
+16:52:42:271 : To read return 
+16:52:42:287 : Read return 
+16:52:42:287 : Return is wrong 
+16:52:42:287 : To reset 
+16:52:43:584 : Reset 
+16:52:43:599 : To write 8Byte 
+16:52:43:662 : Write 8Byte 
+16:52:43:662 : To wait for return 
+16:52:43:865 : Wait for return 
+16:52:43:865 : To read return 
+16:52:43:881 : Read return 
+16:52:43:881 : Return is wrong 
+16:52:43:881 : To reset 
+16:52:45:177 : Reset 
+16:52:45:193 : To write 8Byte 
+16:52:45:240 : Write 8Byte 
+16:52:45:240 : To wait for return 
+16:52:45:443 : Wait for return 
+16:52:45:443 : To read return 
+16:52:45:459 : Read return 
+16:52:45:459 : Return is wrong 
+16:52:45:459 : To reset 
+16:52:46:787 : Reset 
+16:52:46:803 : To write 8Byte 
+16:52:46:865 : Write 8Byte 
+16:52:46:865 : To wait for return 
+16:52:47:068 : Wait for return 
+16:52:47:068 : To read return 
+16:52:47:084 : Read return 
+16:52:47:084 : Return is wrong 
+16:52:47:084 : To reset 
+16:52:48:381 : Reset 
+16:52:48:396 : To write 8Byte 
+16:52:48:459 : Write 8Byte 
+16:52:48:459 : To wait for return 
+16:52:48:662 : Wait for return 
+16:52:48:662 : To read return 
+16:52:48:678 : Read return 
+16:52:48:678 : Return is wrong 
+16:52:48:678 : To reset 
+16:52:49:990 : Reset 
+16:52:50:006 : To write 8Byte 
+16:52:50:053 : Write 8Byte 
+16:52:50:053 : To wait for return 
+16:52:50:256 : Wait for return 
+16:52:50:256 : To read return 
+16:52:50:271 : Read return 
+16:52:50:271 : Return is wrong 
+16:52:50:271 : To reset 
+16:52:51:584 : Reset 
+16:52:51:600 : To write 8Byte 
+16:52:51:662 : Write 8Byte 
+16:52:51:662 : To wait for return 
+16:52:51:865 : Wait for return 
+16:52:51:865 : To read return 
+16:52:51:881 : Read return 
+16:52:51:881 : Return is wrong 
+16:52:51:881 : To reset 
+16:52:53:225 : Reset 
+16:52:53:240 : To write 8Byte 
+16:52:53:287 : Write 8Byte 
+16:52:53:287 : To wait for return 
+16:52:53:490 : Wait for return 
+16:52:53:490 : To read return 
+16:52:53:506 : Read return 
+16:52:53:506 : Return is wrong 
+16:52:53:506 : To reset 
+16:52:54:834 : Reset 
+16:52:54:850 : To write 8Byte 
+16:52:54:912 : Write 8Byte 
+16:52:54:912 : To wait for return 
+16:52:55:115 : Wait for return 
+16:52:55:115 : To read return 
+16:52:55:131 : Read return 
+16:52:55:131 : Return is wrong 
+16:52:55:131 : To reset 
+16:52:56:428 : Reset 
+16:52:56:444 : To write 8Byte 
+16:52:56:490 : Write 8Byte 
+16:52:56:490 : To wait for return 
+16:52:56:694 : Wait for return 
+16:52:56:694 : To read return 
+16:52:56:709 : Read return 
+16:52:56:709 : Return is wrong 
+16:52:56:709 : To reset 
+16:52:58:037 : Reset 

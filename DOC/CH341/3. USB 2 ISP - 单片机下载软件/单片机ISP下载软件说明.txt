@@ -1,0 +1,14 @@
+1. USB2SPI ISPDP
+
+将YSUMA01-341A的SPI接口与单片机SPI下载接口对接，片选信号为CS1
+使用于对AT89S51,AT89S52，AVR系列单片机进行ISP编程及配置。
+
+2. STC_ISP_V488
+
+将YSUMA01-341A的UART( TTL )接口 与 STC 单片机的串口对接
+
+RXD - 单片机的 TXD ; TXD - 单片机的 RXD 
+
+
+
+

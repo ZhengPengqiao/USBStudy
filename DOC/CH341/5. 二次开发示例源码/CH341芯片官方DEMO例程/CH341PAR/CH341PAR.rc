@@ -1,0 +1,488 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CH341PAR.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CH341PAR.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 CH341PAR"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CH341PAR 1.1 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 WCH (C) 1998-2005",IDC_STATIC,40,25,135,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DLGEPP DIALOG DISCARDABLE  0, 0, 301, 270
+STYLE DS_MODALFRAME | WS_POPUP | WS_DISABLED | WS_CAPTION
+CAPTION "EPP并口"
+FONT 10, "宋体"
+BEGIN
+    GROUPBOX        "读写数据，API=EppReadData和EppWriteData",IDC_STATIC,19,
+                    14,266,118
+    LTEXT           "EPP方式读数据: WR#=1, DS#=0, AS#=1, D0-D7=input",
+                    IDC_STATIC,26,26,230,11
+    EDITTEXT        IDC_EDIT_EPPLEN0,57,52,71,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EPPDATA0,57,67,213,38,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "Read",IDC_BUTTON_EPPREAD0,166,113,40,12
+    PUSHBUTTON      "Write",IDC_BUTTON_EPPWRITE0,208,113,40,12
+    EDITTEXT        IDC_EDIT_EPPLEN1,57,177,71,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EPPDATA1,57,192,213,38,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | WS_VSCROLL
+    PUSHBUTTON      "Read",IDC_BUTTON_EPPREAD1,168,238,40,12
+    PUSHBUTTON      "Write",IDC_BUTTON_EPPWRITE1,211,238,40,12
+    GROUPBOX        "读写地址，API=EppReadAddr和EppWriteAddr",IDC_STATIC,20,
+                    141,266,116
+    LTEXT           "数据",IDC_STATIC,28,69,25,8
+    LTEXT           "长度",IDC_STATIC,28,53,28,10
+    LTEXT           "数据",IDC_STATIC,28,194,25,8
+    LTEXT           "长度",IDC_STATIC,28,178,28,10
+    LTEXT           "EPP方式写数据: WR#=0, DS#=0, AS#=1, D0-D7=output",
+                    IDC_STATIC,26,38,231,12
+    LTEXT           "EPP方式读地址: WR#=1, DS#=1, AS#=0, D0-D7=input",
+                    IDC_STATIC,26,152,231,11
+    LTEXT           "EPP方式写地址: WR#=0, DS#=1, AS#=0, D0-D7=output",
+                    IDC_STATIC,26,165,234,11
+    LTEXT           "(<1000H)",IDC_STATIC,131,53,50,9
+    LTEXT           "(<1000H)",IDC_STATIC,131,178,47,9
+END
+
+IDD_DLGMEM DIALOG DISCARDABLE  0, 0, 305, 281
+STYLE DS_MODALFRAME | WS_POPUP | WS_DISABLED | WS_CAPTION
+CAPTION "MEM并口"
+FONT 10, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_MEMLEN0,61,51,74,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MEMDATA0,61,68,209,39,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "Read",IDC_BUTTON_MEMREAD0,167,116,40,12
+    PUSHBUTTON      "Write",IDC_BUTTON_MEMWRITE0,209,116,40,12
+    EDITTEXT        IDC_EDIT_MEMLEN1,61,179,74,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MEMDATA1,61,196,209,39,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "Read",IDC_BUTTON_MEMREAD1,169,241,40,12
+    PUSHBUTTON      "Write",IDC_BUTTON_MEMWRITE1,211,241,40,12
+    GROUPBOX        "读写地址0，API=MemReadAddr0和MemWriteAddr0",IDC_STATIC,
+                    20,14,264,122
+    GROUPBOX        "读写地址1，API=MemReadAddr1和MemWriteAddr1",IDC_STATIC,
+                    21,142,264,117
+    LTEXT           "数据",IDC_STATIC,29,68,25,8
+    LTEXT           "长度",IDC_STATIC,29,52,28,10
+    LTEXT           "数据",IDC_STATIC,29,196,25,8
+    LTEXT           "长度",IDC_STATIC,29,180,28,10
+    LTEXT           "MEM方式读地址0: WR#=1, DS#/RD#=0,AS#/ADDR=0,D0-D7=input",
+                    IDC_STATIC,27,26,230,11
+    LTEXT           "MEM方式写地址0: WR#=0, DS#/RD#=1,AS#/ADDR=0,D0-D7=output",
+                    IDC_STATIC,27,38,231,12
+    LTEXT           "MEM方式读地址1: WR#=1, DS#/RD#=0, AS#/ADDR=1, D0-D7=input",
+                    IDC_STATIC,27,153,231,11
+    LTEXT           "MEM方式写地址1: WR#=0, DS#/RD#=1, AS#/ADDR=1, D0-D7=output",
+                    IDC_STATIC,27,166,234,11
+    LTEXT           "(<1000H)",IDC_STATIC,136,54,38,9
+    LTEXT           "(<1000H)",IDC_STATIC,136,181,41,9
+END
+
+IDD_DLGOTHER DIALOG DISCARDABLE  0, 0, 297, 266
+STYLE DS_MODALFRAME | WS_POPUP | WS_DISABLED | WS_CAPTION
+CAPTION "EEPROM配置"
+FONT 10, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_I2CDEVADD,94,35,79,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_I2CDATAADD,94,67,79,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_I2CDATA,94,92,79,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Read",IDC_BUTTON_I2CREAD,88,117,40,12
+    PUSHBUTTON      "Write",IDC_BUTTON_I2CWRITE,133,117,40,12
+    GROUPBOX        "读写串行EEPROM配置芯片：读取或写入一个字节数据",
+                    IDC_STATIC,28,20,240,178
+    CONTROL         "设备地址",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,39,39,45,8
+    CONTROL         "数据单元地址",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,39,70,52,10
+    CONTROL         "数据",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,
+                    39,94,29,11
+    LTEXT           "** 设备地址一般是50H，A2=A1=A0=GND",IDC_STATIC,40,52,
+                    152,10
+    LTEXT           "** 仅适用于24C01,24C02,24C04,24C08,24C16",IDC_STATIC,41,
+                    145,182,10
+    LTEXT           "** 配置芯片中的内容请参考CH341手册中的说明",IDC_STATIC,
+                    41,156,182,10
+    LTEXT           "** API=CH341ReadI2C和CH341WriteI2C",IDC_STATIC,41,167,
+                    182,10
+END
+
+IDD_DLGI2C2 DIALOG DISCARDABLE  0, 0, 307, 286
+STYLE DS_MODALFRAME | WS_POPUP | WS_DISABLED | WS_CAPTION
+CAPTION "两线串口"
+FONT 10, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_I2CSWRLEN,61,40,69,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_I2CSWRDATA,61,60,207,38,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "Read/Write",IDC_SEND,213,35,53,17
+    EDITTEXT        IDC_EDIT_I2CSRDLEN,61,140,69,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_I2CSRDDATA,61,160,207,38,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    GROUPBOX        "写入数据",IDC_STATIC,32,22,242,92
+    LTEXT           "长度",IDC_STATIC,39,42,16,8
+    LTEXT           "数据",IDC_STATIC,39,60,16,9
+    GROUPBOX        "读入数据",IDC_STATIC,32,125,242,87
+    LTEXT           "长度",IDC_STATIC,39,142,16,8
+    LTEXT           "数据",IDC_STATIC,39,160,16,9
+    GROUPBOX        "以流模式读写兼容I2C的两线同步串口，API=CH341StreamI2C",
+                    IDC_STATIC,15,8,277,248
+    LTEXT           "(<400H)",IDC_STATIC,133,42,35,9
+    LTEXT           "(<400H)",IDC_STATIC,133,141,51,9
+END
+
+IDD_EEPROMRW DIALOG DISCARDABLE  0, 0, 307, 274
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "EEPROM读写"
+FONT 10, "宋体"
+BEGIN
+    GROUPBOX        "EEPROM型号",IDC_STATIC,11,11,55,247
+    EDITTEXT        IDC_WDateAddr,80,30,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WDateLen,80,57,85,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WDateBuf,80,83,205,42,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "Write",IDC_WrDate,222,57,41,13
+    EDITTEXT        IDC_RDateAddr,80,156,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RDateLen,80,182,85,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Read",IDC_RdDate,222,182,41,13
+    LTEXT           "数据单元起始地址",IDC_STATIC,80,21,85,8
+    LTEXT           "写入长度",IDC_STATIC,80,46,43,8
+    LTEXT           "多个数据（16进制，两字符一组）",IDC_STATIC,80,73,133,8
+    GROUPBOX        "写入数据，API=CH341WriteEEPROM",IDC_STATIC,72,11,223,
+                    121
+    EDITTEXT        IDC_RDateBuf,80,209,207,42,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "数据单元起始地址",IDC_STATIC,80,147,86,8
+    LTEXT           "读取长度",IDC_STATIC,80,172,43,8
+    LTEXT           "多个数据（16进制，两字符一组）",IDC_STATIC,80,198,132,8
+    GROUPBOX        "读出数据，API=CH341ReadEEPROM",IDC_STATIC,72,137,223,
+                    121
+    CONTROL         "24C01",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,13,23,48,8
+    CONTROL         "24C02",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,13,41,48,
+                    8
+    CONTROL         "24C04",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,13,59,48,
+                    8
+    CONTROL         "24C08",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,13,77,48,
+                    8
+    CONTROL         "24C16",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,13,95,48,
+                    8
+    CONTROL         "24C32",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,13,113,48,
+                    8
+    CONTROL         "24C64",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,13,131,48,
+                    8
+    CONTROL         "24C128",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,13,149,
+                    48,8
+    CONTROL         "24C256",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,13,167,
+                    48,8
+    CONTROL         "24C512",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,13,185,
+                    48,8
+    CONTROL         "24C1024",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON,13,203,
+                    48,8
+    CONTROL         "24C2048",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON,13,221,
+                    48,8
+    CONTROL         "24C4096",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON,13,239,
+                    48,8
+    LTEXT           "(<400H)",IDC_STATIC,168,60,51,9
+    LTEXT           "(<400H)",IDC_STATIC,167,184,51,9
+END
+
+IDD_DLGBtDisp DIALOG DISCARDABLE  0, 0, 299, 254
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "数字I/O"
+FONT 10, "宋体"
+BEGIN
+    GROUPBOX        "输入：8位开关状态",IDC_STATIC,199,24,77,210
+    CONTROL         "地址0",IDC_ADD0,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    31,204,35,10
+    CONTROL         "地址1",IDC_ADD1,"Button",BS_AUTORADIOBUTTON,31,215,35,
+                    10
+    GROUPBOX        "选择MEM读写地址",IDC_STATIC,23,193,79,38
+    LTEXT           "选中:灯灭",IDC_STATIC,134,193,42,8
+    LTEXT           "未选中:灯亮",IDC_STATIC,127,205,48,8
+    GROUPBOX        "输出：LED显示控制",IDC_STATIC,115,24,74,209
+    CONTROL         "LED1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    139,40,32,10
+    CONTROL         "LED2",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    139,60,32,10
+    CONTROL         "LED3",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    139,80,32,10
+    CONTROL         "LED4",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    139,99,32,10
+    CONTROL         "LED5",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    139,117,32,10
+    CONTROL         "LED6",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    139,137,32,10
+    CONTROL         "LED7",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    139,155,32,10
+    CONTROL         "LED8",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    139,172,32,10
+    PUSHBUTTON      "点此刷新状态",IDC_BtRefresh,209,217,54,12
+    LTEXT           "输出演示：LED复选框控制评估板中8个LED状态",IDC_STATIC,
+                    19,29,87,18
+    LTEXT           "输入演示：8位开关状态是点""刷新""按纽获得评估板中拨码开关的当前状态",
+                    IDC_STATIC,19,58,90,27
+    GROUPBOX        "",IDC_STATIC,15,14,276,228
+    CONTROL         "ON1",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,222,41,28,10
+    CONTROL         "ON2",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,222,60,28,10
+    CONTROL         "ON3",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,222,79,28,10
+    CONTROL         "ON4",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,222,97,28,10
+    CONTROL         "ON5",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,222,117,28,10
+    CONTROL         "ON6",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,222,136,28,10
+    CONTROL         "ON7",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,222,154,28,10
+    CONTROL         "ON8",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,222,172,28,10
+    LTEXT           "ON:选中",IDC_STATIC,215,193,42,8
+    LTEXT           "OFF:不选中",IDC_STATIC,212,205,48,8
+    LTEXT           "所用API与MEM并口相同，只是长度总是1字节",IDC_STATIC,19,
+                    169,87,18
+END
+
+IDD_CH341PAR_DIALOG DIALOG DISCARDABLE  0, 0, 281, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "CH341EVT"
+FONT 10, "System"
+BEGIN
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,2,0,0
+ PRODUCTVERSION 1,2,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "CH341PAR Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 2, 0, 0\0"
+            VALUE "InternalName", "CH341PAR\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CH341PAR.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "CH341PAR 应用程序\0"
+            VALUE "ProductVersion", "1, 2, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DLGEPP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+
+    IDD_DLGMEM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 299
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+
+    IDD_DLGOTHER, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_DLGI2C2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_EEPROMRW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 267
+    END
+
+    IDD_DLGBtDisp, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_CH341PAR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 CH341PAR(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\CH341PAR.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

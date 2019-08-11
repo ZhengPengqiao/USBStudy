@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CH341PAR - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/CH341PAR.res" /d "NDEBUG" /d "_AFXDLL" "D:\TaskFinished\CH341EVT\CH341PARA_VC\CH341PAR.rc"" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP126.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/CH341PAR.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\TaskFinished\CH341EVT\CH341PARA_VC\CH341PAR.cpp"
+"D:\TaskFinished\CH341EVT\CH341PARA_VC\CH341PARDlg.cpp"
+"D:\TaskFinished\CH341EVT\CH341PARA_VC\CtrlSheet.cpp"
+"D:\TaskFinished\CH341EVT\CH341PARA_VC\EeprPage.cpp"
+"D:\TaskFinished\CH341EVT\CH341PARA_VC\EppPage.cpp"
+"D:\TaskFinished\CH341EVT\CH341PARA_VC\I2CSPage.cpp"
+"D:\TaskFinished\CH341EVT\CH341PARA_VC\LEDBTDisp.cpp"
+"D:\TaskFinished\CH341EVT\CH341PARA_VC\MemPage.cpp"
+"D:\TaskFinished\CH341EVT\CH341PARA_VC\OtherPage.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP126.tmp" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP127.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/CH341PAR.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\TaskFinished\CH341EVT\CH341PARA_VC\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP127.tmp" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP128.tmp" with contents
+[
+CH341DLL.LIB /nologo /subsystem:windows /incremental:no /pdb:"Release/CH341PAR.pdb" /machine:I386 /out:"Release/CH341PAR.exe" 
+.\Release\CH341PAR.obj
+.\Release\CH341PARDlg.obj
+.\Release\CtrlSheet.obj
+.\Release\EeprPage.obj
+.\Release\EppPage.obj
+.\Release\I2CSPage.obj
+.\Release\LEDBTDisp.obj
+.\Release\MemPage.obj
+.\Release\OtherPage.obj
+.\Release\StdAfx.obj
+.\Release\CH341PAR.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP128.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CH341PAR.cpp
+CH341PARDlg.cpp
+CtrlSheet.cpp
+EeprPage.cpp
+EppPage.cpp
+I2CSPage.cpp
+LEDBTDisp.cpp
+MemPage.cpp
+OtherPage.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CH341PAR.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

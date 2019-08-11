@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ch341_spi_flash - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\szk\LOCALS~1\Temp\RSP1FE.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/ch341_spi_flash.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\ch34x\usb_parport\szk_ch341_spi_flash\obj\ch341_spi_flash\ch341_spi_flash.C"
+]
+Creating command line "cl.exe @C:\DOCUME~1\szk\LOCALS~1\Temp\RSP1FE.tmp" 
+Creating temporary file "C:\DOCUME~1\szk\LOCALS~1\Temp\RSP1FF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ch341dll.lib /nologo /subsystem:console /incremental:no /pdb:"Release/ch341_spi_flash.pdb" /machine:I386 /out:"Release/ch341_spi_flash.exe" 
+.\Release\ch341_spi_flash.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\szk\LOCALS~1\Temp\RSP1FF.tmp"
+<h3>Output Window</h3>
+Compiling...
+ch341_spi_flash.C
+Linking...
+
+
+
+<h3>Results</h3>
+ch341_spi_flash.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ch341_spi_flash - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\szk\LOCALS~1\Temp\RSP201.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ch341_spi_flash.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\ch34x\usb_parport\szk_ch341_spi_flash\obj\ch341_spi_flash\ch341_spi_flash.C"
+]
+Creating command line "cl.exe @C:\DOCUME~1\szk\LOCALS~1\Temp\RSP201.tmp" 
+Creating temporary file "C:\DOCUME~1\szk\LOCALS~1\Temp\RSP202.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ch341dll.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ch341_spi_flash.pdb" /debug /machine:I386 /out:"Debug/ch341_spi_flash.exe" /pdbtype:sept 
+.\Debug\ch341_spi_flash.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\szk\LOCALS~1\Temp\RSP202.tmp"
+<h3>Output Window</h3>
+Compiling...
+ch341_spi_flash.C
+Linking...
+
+
+
+<h3>Results</h3>
+ch341_spi_flash.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

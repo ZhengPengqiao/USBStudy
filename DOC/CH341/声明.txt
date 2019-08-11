@@ -1,0 +1,10 @@
+本资料包适用于优胜电子USB转I2C/UART/SPI设备
+
+优胜YS-CH341T  YSUMA01-341A U2IU 适用
+
+资料包若有密码，请凭订单号索取:
+邮箱：usendz@foxmail.com 
+旺旺：usendz
+店址：http://usendz.taobao.com
+
+

@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: USBIO_SDK - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\cpliu\LOCALS~1\Temp\RSP890.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/USBIO_SDK.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\我接收到的文件\Soft\USB2IIC&SPI_SDK\MAINC.CPP"
+"D:\我接收到的文件\Soft\USB2IIC&SPI_SDK\USBIO.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cpliu\LOCALS~1\Temp\RSP890.tmp" 
+Creating temporary file "C:\DOCUME~1\cpliu\LOCALS~1\Temp\RSP891.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/USBIO_SDK.pdb" /machine:I386 /out:"Release/USBIO_SDK.exe" 
+".\Release\MAINC.OBJ"
+".\Release\USBIO.obj"
+".\USBIOX.LIB"
+]
+Creating command line "link.exe @C:\DOCUME~1\cpliu\LOCALS~1\Temp\RSP891.tmp"
+<h3>Output Window</h3>
+Compiling...
+MAINC.CPP
+USBIO.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/USBIO_SDK.bsc"  ".\Release\MAINC.SBR" ".\Release\USBIO.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+USBIO_SDK.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

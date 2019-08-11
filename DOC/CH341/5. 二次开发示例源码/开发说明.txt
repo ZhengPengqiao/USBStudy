@@ -1,0 +1,13 @@
+二次开发网上资源
+
+WCH电子论坛：http://www.wch.cn/bbs/Board.asp?S=101
+
+开发过程中遇到自己实在不清楚怎么使用函数接口可以到WCH论坛发问，有专业的工程师支持，也可发邮件szk@wch.cn直接咨询，一般第二天就会有回复的。
+
+最新驱动下载：http://www.wch.cn/download/index.asp 
+
+官方最新软件例程：
+
+CH341EVT.ZIP
+http://www.wch.cn/downloads.php?name=pro&proid=60
+
